@@ -1,0 +1,264 @@
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    list-style: none; 
+   margin: 0px 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color:rgb(159, 159, 243);
+    font-size: 1.04rem;
+}
+
+nav {
+    height: 80px;
+    background-color:rgb(19, 19, 73) ;
+}
+
+nav div.right{
+    display: flex;
+    justify-content:space-around;
+    margin-left: 300px;
+    align-items: center;
+    padding-top: 1px;
+}
+nav div.left{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 100px;
+    padding-top: 12px;
+    font-size: 1.5rem;
+  }
+#top-left:hover{
+    color: rgb(170, 107, 228);
+}
+
+
+  li,a {
+    font-weight: 500;
+    font-size: 16px;
+    color:white;
+}
+
+
+
+
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 130px 0px;
+    align-items: center;
+}
+.firstsection > div{
+    width: 30%;
+}
+
+.leftsection{
+    font-size: 3rem;
+}
+
+.man-work{
+    width: 400px;
+    margin: 40px 0;
+}
+
+.purple{
+    color: rgb(170, 107, 228);
+}
+.text-grey{
+    color: grey;
+}
+
+#element{
+    color:rgb(170, 107, 228) ;
+}
+h1:hover{
+    color:rgb(170, 107, 228) ;
+}
+main hr{
+    background-color:rgb(170, 107, 228);
+    border: 0;
+    height: 2px;
+    margin: 60px 84px;
+    width: 87%;
+}
+
+.secondsection{
+    max-width: 80vw;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+    height: 80vh;
+}
+.box{
+    background-color: white;
+    width: 80vw;
+    height: 2px;
+    margin: 60px 0px;
+    display: flex;
+
+}
+.vertical-lines{
+    height: 93px;
+    width: 1px;
+    background-color:white ;
+    margin: 0px 120px;
+}
+.html-img{
+    width: 23px;
+    position: relative;
+    top: -23px;
+    right: 11px;
+}
+.html-line{
+    position: relative;
+    top: 70px;
+    right: 60px;
+    width: 137px;
+    
+    
+}
+.html-desc{
+    color: gray;
+    position: relative;
+    top: 110px;
+    right: 60px;
+    width: 168px;
+}
+
+.css-img{
+    width: 23px;
+    position: relative;
+    top: -23px;
+    right: 11px;
+}
+
+.css-line{
+    position: relative;
+    top: 70px;
+    right: 60px;
+    width: 137px;
+}
+.css-desc{
+    color: gray;
+    position: relative;
+    top: 110px;
+    right: 60px;
+    width: 168px;
+}
+.js-img{
+    width: 23px;
+    position: relative;
+    top: -23px;
+    right: 11px;
+}
+.js-line{
+    position: relative;
+    top: 70px;
+    right: 60px;
+    width: 137px;
+}
+.js-desc{color: gray;
+    position: relative;
+    top: 110px;
+    right: 60px;
+    width: 168px;
+}
+.c-img{
+    width: 20px;
+    position: relative;
+    top: -25px;
+    right: 10px;
+}
+.c-line{
+    position: relative;
+    top: 80px;
+    right: 60px;
+    width: 137px;
+}
+
+.c-desc{color: gray;
+    position: relative;
+    top: 146px;
+    right: 60px;
+    width: 168px;
+}
+footer{
+    background-color:#0e0e1a;
+    width: 100%;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 60px 40px ;
+}
+.facebook-img{
+    width: 40px;
+}
+
+.LinkedIn-img{
+    width: 40px;
+}
+
+.github-img{
+    width: 48px;
+}
+
+div.c-line:hover{
+    color:rgb(170, 107, 228);
+}
+.js-line:hover{
+    color:rgb(170, 107, 228);
+}
+
+.css-line:hover{
+    color:rgb(170, 107, 228);
+}
+.html-line:hover{
+color: rgb(170, 107, 228);
+}
+.copyright{
+    color: grey;
+    text-align: center;
+}
+
+
+.copyright:hover{
+    color:rgb(170, 107, 228);
+}
+
+
+
+.LinkedIn-div:hover{
+    width: 50px;
+    color:rgb(170, 107, 228);
+}
+
+.github-div:hover{
+    width: 50px;
+    color:rgb(170, 107, 228);
+}
+
+div.facebook-div:hover{
+    width: 50px;
+    color:rgb(170, 107, 228);
+}
